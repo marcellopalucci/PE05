@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8867f1a4-fbc1-4a44-a0aa-075538e4b1da" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PE05.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AlreadyWatchedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FilmNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MovieTheater.java" afterDir="false" />
-    </list>
+    <list default="true" id="8867f1a4-fbc1-4a44-a0aa-075538e4b1da" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

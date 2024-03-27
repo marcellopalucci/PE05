@@ -2,7 +2,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class MovieTheater extends Exception{
+public class MovieTheater{
     private ArrayList<String> movies;
     private ArrayList<String> watched;
 
@@ -84,6 +84,5 @@ public class MovieTheater extends Exception{
         }
 
     }
-
 
 }
