@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.Arrays;
 
 /**
  * Class represents a movie theater playing different movies.
@@ -81,19 +80,21 @@ public class MovieTheater {
      * @throws FilmNotFoundException checked Exception representing films not found in the movie theater
      */
     public static void main(String[] args) throws FilmNotFoundException {
-        ArrayList<String> movies = new ArrayList<String>(Arrays.asList("Dune: Part Two",
-                "Arthur the King",
-                "Imaginary",
-                "Kung fu Panda 4",
-                "Luca"));
+        ArrayList<String> movies = new ArrayList<String>();
+        movies.add("Dune: Part Two");
+        movies.add("Arthur the King");
+        movies.add("Imaginary");
+        movies.add("Kung fu Panda 4");
+        movies.add("Immaculate");
 
+        ArrayList<String> watched = new ArrayList<String>();
+        watched.add("Luca");
+        watched.add("Borat");
 
-        ArrayList<String> watched = new ArrayList<String>(Arrays.asList("Luca",
-                "Borat"));
-
-        ArrayList<String> recommended = new ArrayList<String>(Arrays.asList("Borat",
-                "Dune: Part Two",
-                "Harold & Kumar"));
+        ArrayList<String> recommended = new ArrayList<String>();
+        recommended.add("Borat");
+        recommended.add("Dune: Part Two");
+        recommended.add("Harold & Kumar");
 
         MovieTheater plazaTheater = new MovieTheater(movies, watched);
 
@@ -112,7 +113,5 @@ public class MovieTheater {
         } finally {
             System.out.println("Took a look at the movies!");
         }
-
     }
-
 }
